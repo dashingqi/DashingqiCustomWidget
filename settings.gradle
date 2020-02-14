@@ -1,2 +1,2 @@
-include ':app', ':draw'
+include ':app', ':draw', ':customondraw', ':viewgroupinterceptevent'
 rootProject.name='DashingqiCustomWidget'
