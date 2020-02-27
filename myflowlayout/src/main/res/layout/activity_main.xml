@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.dashingqi.myflowlayout.MyFlowLayout
+    <com.dashingqi.myflowlayout.MyFlowLayoutView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" >
@@ -80,6 +81,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shape_button_circular"
             android:text="图书勋章日" />
-    </com.dashingqi.myflowlayout.MyFlowLayout>
+    </com.dashingqi.myflowlayout.MyFlowLayoutView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
