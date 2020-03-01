@@ -160,6 +160,7 @@ public class MyFlowLayoutView extends ViewGroup {
                 case RIGHT: {
                     left = width - (lineWidth + getPaddingLeft()) + getPaddingRight();
                 }
+                break;
             }
             for (int j = 0; j < mLineViews.size(); j++) {
                 View childView = mLineViews.get(j);
